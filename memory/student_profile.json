@@ -1,0 +1,12 @@
+{
+  "student_id": "S123",
+  "grade": 6,
+  "subjects": {
+    "math": {
+      "fractions": {
+        "mastery": 0.70,
+        "confidence": "medium"
+      }
+    }
+  }
+}

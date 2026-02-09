@@ -1,0 +1,51 @@
+{
+  "student_id": "student_001",
+  "overall_progress": {
+    "mastery_percentage": 0.42,
+    "last_updated": "2026-02-09T10:30:00Z"
+  },
+  "subjects": {
+    "mathematics": {
+      "linear_equations": {
+        "mastery_score": 0.45,
+        "confidence": 0.40,
+        "attempts": 5,
+        "correct_attempts": 2,
+        "last_assessed": "2026-02-08T18:20:00Z",
+        "status": "learning",
+        "hitl_required": false,
+        "remediation_recommended": true
+      },
+      "fractions": {
+        "mastery_score": 0.75,
+        "confidence": 0.70,
+        "attempts": 4,
+        "correct_attempts": 3,
+        "last_assessed": "2026-02-07T16:10:00Z",
+        "status": "mastered",
+        "hitl_required": false,
+        "remediation_recommended": false
+      }
+    },
+    "science": {
+      "photosynthesis": {
+        "mastery_score": 0.30,
+        "confidence": 0.25,
+        "attempts": 3,
+        "correct_attempts": 1,
+        "last_assessed": "2026-02-09T09:00:00Z",
+        "status": "needs_help",
+        "hitl_required": true,
+        "remediation_recommended": true
+      }
+    }
+  },
+  "alerts": [
+    {
+      "type": "LOW_CONFIDENCE",
+      "subject": "science",
+      "concept": "photosynthesis",
+      "raised_at": "2026-02-09T09:05:00Z"
+    }
+  ]
+}

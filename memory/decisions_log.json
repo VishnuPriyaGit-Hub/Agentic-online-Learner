@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2026-02-09T10:30:00Z",
+    "agent": "assessment_agent",
+    "action": "final_exam_requested",
+    "status": "blocked",
+    "reason": "HITL_required",
+    "reviewer": null
+  },
+  {
+    "timestamp": "2026-02-09T10:45:00Z",
+    "agent": "teacher_support_agent",
+    "action": "lesson_plan_suggested",
+    "status": "approved",
+    "reviewer": "system"
+  }
+]
