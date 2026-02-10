@@ -14,3 +14,6 @@
 
 ## Persistence
 Memory evolves after every interaction.
+
+Add Orchestrator core logic with state validation, routing, and HITL
+
